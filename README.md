@@ -9,7 +9,8 @@ https://thepi.io/how-to-run-raspberry-pi-desktop-on-windows-or-macos/ Debian (64
 ```Name: RPiDesktop
 Type: Linux 
 Version: Other Linux (32-bit) 
-Memory size: 1024MB``` 
+Memory size: 1024MB
+``` 
 5. Select Create a virtual hard disk now 
 6. Select VDI (the default) 
 7. Select Dynamically allocated (the default) 
