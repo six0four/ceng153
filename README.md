@@ -45,11 +45,8 @@ Help
 20. Yes (takes a handful of minutes)
 21. Yes (to GRUB)
 22. /dev/sda (ata-VBOX_HARDDISK_VB...)
-23. 
-Not needed:
-"Devices->Optical Drives->Remove disk from virtual drive
+23. Not needed: "Devices->Optical Drives->Remove disk from virtual drive
 Force umount"
-
 24. Continue:
 ```
 *Debian GNU/Linux (default)
