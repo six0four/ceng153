@@ -49,8 +49,8 @@ Help
 Not needed:
 "Devices->Optical Drives->Remove disk from virtual drive
 Force umount"
-24. 
-Continue:
+
+24. Continue:
 ```
 *Debian GNU/Linux (default)
 ```
@@ -59,6 +59,13 @@ Continue:
 27. Canadian English
 28. Toronto 
 29. Use US keyboard
-30. Password change -> leave blank
+30. Password change -> pi, pi
 31. Update Software? -> Skip
-32. Reboot
+32. Restart
+33. Navigate via the start menu in the top left corner to Internet > Chromium Web Browser
+34. Go to myfiles.humber.ca to get files from your H:/ drive
+35. Navigate to Accessories > Terminal
+36. Run the command
+```
+sudo apt-get install codeblocks vim -y
+```
