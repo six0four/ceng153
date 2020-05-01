@@ -66,3 +66,17 @@ Force umount"
 ```
 sudo apt-get install codeblocks vim -y
 ```
+37. To enable file transfer from your physical host computer:   
+38. I haven't had a chance to make a set of instructions for shared folders (feel free to create them and let me know) or localhost networking/guest additions (feel free to create them and let me know) but you can use myfiles.humber.ca as a transfer place or enable USB key transfer as follows:
+39. Shut down the guest virtual machine.
+40. Properly eject any USB keys. 
+41. In VirtualBox, go into the Settings of the guest virtual machine (Ctrl+S).
+![VirtualMachineSettings](https://raw.githubusercontent.com/six0four/ceng153/master/images/VirtualMachineSettings.jpg)
+42. Select the USB filter with the blue circle icon and then click OK.
+![VirtualMachineUSB](https://raw.githubusercontent.com/six0four/ceng153/master/images/VirtualMachineUSB.jpg)
+43. Start the guest virtual machine.
+44. If you insert a USB key it should provide a dialog that it is inserted in the virtual machine. (screen capture)
+![VirtualMachineUSBinserted](https://raw.githubusercontent.com/six0four/ceng153/master/images/VirtualMachineUSBinserted.jpg)
+45. Properly eject it from the virtual machine then shutdown the virtual machine.
+46. Insert it back in and the physical host machine should recognize it.
+47. Be careful not to leave USB devices plugged in while starting since if you allow your guest to connect to your USB drive that is currently mounted on the host, when the guest is activated, it will be disconnected from the host without a proper shutdown. This may cause data loss. 
