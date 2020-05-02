@@ -1,5 +1,6 @@
 # Raspberry Pi Desktop running in Oracle's VirtualBox instead of the actual device:
-1. Download a Raspberry Pi Desktop ISO (takes 2 hours?):
+0. Required: several GB of free space.
+1. Download a Raspberry Pi Desktop ISO (this can take hours but continue with the next step while you wait):
 https://www.raspberrypi.org/downloads/raspberry-pi-desktop/
 2. Download and install:
 https://download.virtualbox.org/virtualbox/5.2.26/VirtualBox-5.2.26-128414-Win.exe
@@ -16,7 +17,7 @@ Memory size: 1024MB
 7. Select Dynamically allocated (the default) 
 8. Select 16GB
 9. Machine->Start->Normal Start
-10. Select start-up disk 2018-11-26-rpd-x86-stretch.iso (2.36 GB)
+10. Select start-up disk (once your step 1 download finishes) 2020-02-12-rpd-x86-buster.iso (2.9 GB)
 11. Choose Graphical install
 ```
 Run with persistence
