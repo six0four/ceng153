@@ -68,7 +68,7 @@ Force umount"
 sudo apt-get install codeblocks vim -y
 ```
 37. To enable file transfer from your physical host computer:   
-38. I haven't had a chance to make a set of instructions for shared folders (feel free to create them and let me know) or localhost networking/guest additions (feel free to create them and let me know) but you can use myfiles.humber.ca as a transfer place or enable USB key transfer as follows:
+38. I haven't had a chance to make a set of instructions for shared folders (feel free to create them and let me know) or localhost networking/guest additions (feel free to create them and let me know) or scp to munro/apollo but you can use myfiles.humber.ca as a transfer place or enable USB key transfer as follows:
 39. Shut down the guest virtual machine.
 40. Properly eject any USB keys. 
 41. In VirtualBox, go into the Settings of the guest virtual machine (Ctrl+S).   
