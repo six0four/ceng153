@@ -81,7 +81,7 @@ sudo apt-get install codeblocks vim -y
 45. Properly eject it from the virtual machine then shutdown the virtual machine.
 46. Insert it back in and the physical host machine should recognize it.
 47. Be careful not to leave USB devices plugged in while starting since if you allow your guest to connect to your USB drive that is currently mounted on the host, when the guest is activated, it will be disconnected from the host without a proper shutdown. This may cause data loss. 
-48. Note that you may not have a serial number and thus use the following command instead:
+48. Note that you may not have a serial number and thus use the following command instead to get 9 digits:
 ```
-cat /proc/cpuinfo | grep MHz
+ls --fu /usr/lib/codeblocks | grep -Po '\.\K[^ ]+'
 ```
